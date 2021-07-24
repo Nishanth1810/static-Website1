@@ -27,3 +27,8 @@ export const Ul = styled.ul`
     margin: 2rem 0;
   }
 `;
+
+export const P = styled.p`
+  font-size: 2rem;
+  line-height: 2.7rem;
+`;

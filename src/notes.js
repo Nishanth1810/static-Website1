@@ -2,16 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Link} from 'react-router-dom';
 import {notes} from './notesData';
-import {Ul, Title} from './elements';
+import {P, Ul, Title} from './elements';
 
 export const Error = props => {
   return (
-    <div>
-      <p>Error!</p>
-      <p>
-        Here's a link to the <a href="/">homepage</a>.
-      </p>
-    </div>
+    <P>
+      Error! Here's a link to the <a href="/">homepage</a>.
+    </P>
   );
 };
 

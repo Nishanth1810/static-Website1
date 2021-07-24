@@ -8,7 +8,6 @@ const App = props => {
     <BrowserRouter>
       <Switch>
         <Route path="/:slug" component={props => <Note slug={props.match.params.slug} {...props} />} />
-        <Route path="/error" component={props => <Error />} />
         <Route path="/" component={props => <Notes />} />
       </Switch>
     </BrowserRouter>
